@@ -43,22 +43,27 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+<img width="178" height="92" alt="image" src="https://github.com/user-attachments/assets/253a693c-f5ef-4902-b8bc-6c6dd7af29e7" />
 
 
 cat < file2
 ## OUTPUT
+<img width="138" height="82" alt="image" src="https://github.com/user-attachments/assets/1f0207bc-a086-498c-bc74-83324de60cba" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="235" height="36" alt="image" src="https://github.com/user-attachments/assets/5896e046-4ef4-4c52-8213-2a37bf8c7bdd" />
+
 comm file1 file2
  ## OUTPUT
+<img width="223" height="162" alt="image" src="https://github.com/user-attachments/assets/d36245ba-8194-4605-85dd-615aa68612e2" />
 
  
 diff file1 file2
 ## OUTPUT
+<img width="168" height="155" alt="image" src="https://github.com/user-attachments/assets/f446d926-1994-41ef-ba02-68bcde739973" />
 
 
 #Filters
@@ -83,16 +88,19 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="198" height="61" alt="image" src="https://github.com/user-attachments/assets/87404560-6fdc-482e-9e34-bf7f513e7f07" />
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+<img width="164" height="111" alt="image" src="https://github.com/user-attachments/assets/1528d5cf-a592-46bd-828e-8fb88fd43f95" />
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="200" height="111" alt="image" src="https://github.com/user-attachments/assets/3491937a-e3bc-45ba-8343-40265fdd8b56" />
 
 
 cat < newfile 
@@ -107,39 +115,39 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+<img width="167" height="44" alt="image" src="https://github.com/user-attachments/assets/15664db8-892c-4f7e-9ed4-a028f521ac7d" />
 
 
 
 grep hello newfile 
 ## OUTPUT
 
+<img width="146" height="34" alt="image" src="https://github.com/user-attachments/assets/f4fad7a1-29b9-44e2-a661-25bb6671ae4c" />
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+<img width="192" height="52" alt="image" src="https://github.com/user-attachments/assets/bf3b47a0-ac43-46bc-a284-98d48c1be46a" />
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+<img width="244" height="56" alt="image" src="https://github.com/user-attachments/assets/d532e764-9388-442d-a526-3292825aa76b" />
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-
-
-
-grep -R ubuntu /etc
-## OUTPUT
+<img width="261" height="53" alt="image" src="https://github.com/user-attachments/assets/51afe62e-70a0-4134-b5c4-5835e374e62e" />
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="213" height="55" alt="image" src="https://github.com/user-attachments/assets/c97ba65d-3879-4882-8bd2-5bbbddd9cefc" />
 
 
 cat < newfile 
@@ -164,58 +172,71 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+<img width="223" height="51" alt="image" src="https://github.com/user-attachments/assets/26863ed9-4e0f-49b1-b8ab-f86cd1f18af7" />
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+<img width="243" height="58" alt="image" src="https://github.com/user-attachments/assets/ae5ee488-a4ae-4244-9648-335c6c22999d" />
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+<img width="296" height="58" alt="image" src="https://github.com/user-attachments/assets/307ccc99-498c-4302-94be-59f4dd8f05ec" />
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+<img width="200" height="46" alt="image" src="https://github.com/user-attachments/assets/15d60f7d-44c5-4a3d-8293-6c5aeaadbd14" />
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+<img width="196" height="48" alt="image" src="https://github.com/user-attachments/assets/113fe6b6-c3fe-42f5-9147-5572044162ae" />
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+<img width="222" height="40" alt="image" src="https://github.com/user-attachments/assets/7d8046a4-402b-414d-8dc8-d25eb9883bf7" />
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+<img width="238" height="78" alt="image" src="https://github.com/user-attachments/assets/c77a6feb-681e-464f-9084-1f29d4de19f0" />
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+<img width="213" height="35" alt="image" src="https://github.com/user-attachments/assets/43e87c2b-59a5-41f3-ba48-8785a7ba4505" />
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="253" height="41" alt="image" src="https://github.com/user-attachments/assets/82c6addc-15db-49d9-9258-2867e21918f3" />
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+<img width="223" height="40" alt="image" src="https://github.com/user-attachments/assets/d888e826-977d-4d63-af60-d38b5e44202a" />
 
 
 egrep l{2} newfile
 ## OUTPUT
+<img width="141" height="60" alt="image" src="https://github.com/user-attachments/assets/92e28f13-056c-486b-9112-d4dc58104b6c" />
+
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="194" height="68" alt="image" src="https://github.com/user-attachments/assets/f44795f8-fafc-497d-8d79-4638e13fe6dc" />
 
 
 cat > file23
@@ -235,78 +256,89 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+<img width="194" height="42" alt="image" src="https://github.com/user-attachments/assets/1de45137-e023-434c-90db-a9653498801c" />
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+<img width="218" height="34" alt="image" src="https://github.com/user-attachments/assets/cffc9230-aee3-45ae-9653-372cf9d9d7a3" />
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="281" height="138" alt="image" src="https://github.com/user-attachments/assets/b748cd5c-de67-491e-981b-b0020b37c028" />
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+<img width="241" height="101" alt="image" src="https://github.com/user-attachments/assets/7b277348-2af0-4a13-9140-ce1d0ed1001e" />
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+<img width="243" height="149" alt="image" src="https://github.com/user-attachments/assets/651cfa1b-a2b5-411a-9750-5718b0cd08a0" />
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+<img width="227" height="101" alt="image" src="https://github.com/user-attachments/assets/8b10af4e-2fc8-4cea-9d2a-a18649a3420d" />
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+<img width="229" height="67" alt="image" src="https://github.com/user-attachments/assets/94a7571c-4617-479e-b746-3d3024034a10" />
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+<img width="233" height="53" alt="image" src="https://github.com/user-attachments/assets/8e560c43-db1c-4992-941d-5822a554de49" />
 
 
 
 seq 10 
 ## OUTPUT
+<img width="176" height="196" alt="image" src="https://github.com/user-attachments/assets/2e6e8cf2-edae-4ba0-8855-58df61dff310" />
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+<img width="220" height="67" alt="image" src="https://github.com/user-attachments/assets/43f7156f-4582-4912-8d0e-69a744de52ef" />
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+<img width="210" height="68" alt="image" src="https://github.com/user-attachments/assets/766e8c0b-1c8b-43e0-bc89-0e940f166557" />
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+<img width="192" height="84" alt="image" src="https://github.com/user-attachments/assets/586b74e8-c410-4c40-b600-d019cd8c7255" />
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="228" height="79" alt="image" src="https://github.com/user-attachments/assets/7520e7ae-7e83-4b35-a6a9-aa4cac5ef356" />
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="243" height="70" alt="image" src="https://github.com/user-attachments/assets/a86318ba-dafc-47b1-8519-19c6554051ab" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
-
-
-sed -n '2,4{s/$/*/;p}' file23
+<img width="286" height="76" alt="image" src="https://github.com/user-attachments/assets/8b02bce1-7a1d-498d-87d4-40dd59be471b" />
 
 
 #Sorting File content
@@ -320,6 +352,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="219" height="103" alt="image" src="https://github.com/user-attachments/assets/701243cc-7127-4ef0-95c8-f73d348d48a1" />
 
 
 cat > file22
@@ -334,12 +367,15 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+<img width="214" height="95" alt="image" src="https://github.com/user-attachments/assets/294c7b2f-b5b6-474b-9ebc-8c7160d6a903" />
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ <img width="273" height="137" alt="image" src="https://github.com/user-attachments/assets/1f3912aa-3534-4691-afd1-8e9f34a11b69" />
+
 
 cat < urllist.txt
 ```
@@ -357,17 +393,20 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="206" height="80" alt="image" src="https://github.com/user-attachments/assets/374f1102-6b7c-4cbe-8fa9-7eec8abfefb8" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="279" height="73" alt="image" src="https://github.com/user-attachments/assets/2a21883f-ac70-4490-a295-a482f9e5440e" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
+<img width="223" height="198" alt="image" src="https://github.com/user-attachments/assets/7ff276b1-b119-4180-bb3a-6a71077f78f2" />
 
 mkdir backupdir
  
@@ -377,28 +416,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="240" height="532" alt="image" src="https://github.com/user-attachments/assets/b847d17b-0abf-4d3e-9957-57c1ba89457c" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="470" height="168" alt="image" src="https://github.com/user-attachments/assets/34de0303-8d4b-4a6c-b723-21f4914e5223" />
 
-gzip backup.tar
 
-ls .gz
-## OUTPUT
- 
-gunzip backup.tar.gz
-## OUTPUT
 
- 
-# Shell Script
-```
-echo '#!/bin/sh' > my-script.sh
-echo 'echo Hello World‘; exit 0 >> my-script.sh
-```
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="160" height="55" alt="image" src="https://github.com/user-attachments/assets/2a3d3c1a-1f52-4697-a033-60011fa1743e" />
 
  
 cat << stop > herecheck.txt
@@ -412,6 +442,7 @@ stop
 cat herecheck.txt
 ## OUTPUT
 
+<img width="226" height="82" alt="image" src="https://github.com/user-attachments/assets/36291c18-2e0b-41ee-a0c1-eab5ec4ecba6" />
 
 cat < scriptest.sh 
 ```bash
@@ -449,23 +480,28 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="575" height="321" alt="image" src="https://github.com/user-attachments/assets/7d693ccc-cd3c-4ac9-a80b-d86ef6006435" />
 
  
 ls file1
 ## OUTPUT
+<img width="95" height="34" alt="image" src="https://github.com/user-attachments/assets/78d2594b-6807-44fc-9117-4b21898c6115" />
 
 echo $?
-## OUTPUT 
+## OUTPUT
+<img width="88" height="39" alt="image" src="https://github.com/user-attachments/assets/2e438b06-63e1-493c-83a9-8743a016a1a3" />
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
-abcd
- 
+ <img width="108" height="53" alt="image" src="https://github.com/user-attachments/assets/7281871a-ed3c-48c7-b709-59277b67f645" />
+
+
 echo $?
  ## OUTPUT
+<img width="109" height="38" alt="image" src="https://github.com/user-attachments/assets/17256a7d-98ca-49da-a7d5-7e23fbc3cb70" />
 
 
  
@@ -499,12 +535,14 @@ fi
 ```
 ##OUTPUT
 
+<img width="255" height="105" alt="image" src="https://github.com/user-attachments/assets/7da9d4dc-64ef-4549-963d-619b3c99afaa" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="237" height="45" alt="image" src="https://github.com/user-attachments/assets/85e19a50-577b-48c4-802c-760aa3bec5c6" />
 
 
 # check file ownership
@@ -532,6 +570,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="382" height="34" alt="image" src="https://github.com/user-attachments/assets/8665d4f3-c2a9-4587-a5fc-58c0b68f1f1f" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -578,6 +617,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="350" height="82" alt="image" src="https://github.com/user-attachments/assets/3e5e73e1-232d-44af-b9be-f0518ca516bd" />
 
 
 
@@ -622,6 +662,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="289" height="62" alt="image" src="https://github.com/user-attachments/assets/e04408a2-6a0e-4848-9d85-a4590e2413af" />
 
 # check if a file
 cat > ifnested.sh 
@@ -671,6 +712,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="337" height="80" alt="image" src="https://github.com/user-attachments/assets/df698551-b1ab-4b8c-9a4a-66df57613b32" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -700,6 +742,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+<img width="412" height="110" alt="image" src="https://github.com/user-attachments/assets/92b73f77-a17e-4dc8-8f65-bcf12079e300" />
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -715,6 +758,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="301" height="39" alt="image" src="https://github.com/user-attachments/assets/8ff94a16-cdd8-4f2d-98ab-7e7ffbe04e02" />
+
 
 # using the case command
 cat >casecheck.sh 
@@ -749,7 +794,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ <img width="160" height="216" alt="image" src="https://github.com/user-attachments/assets/58df6480-050f-4a85-b48a-49b6d7a1b8de" />
+
  
 cat untiltest.sh 
 ```bash
@@ -762,7 +808,8 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+ <img width="173" height="106" alt="image" src="https://github.com/user-attachments/assets/e71a4bf8-1727-447e-94ce-df0578d04516" />
+
  
  
 cat forin1.sh 
@@ -776,7 +823,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ <img width="248" height="140" alt="image" src="https://github.com/user-attachments/assets/509ea7c7-75af-40ba-882d-08c36be7da2d" />
+
  
 cat forin2.sh 
 ```bash
@@ -802,7 +850,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ <img width="252" height="82" alt="image" src="https://github.com/user-attachments/assets/98d17f8e-d288-4dba-b874-92a04526adc1" />
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -813,7 +862,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ <img width="182" height="148" alt="image" src="https://github.com/user-attachments/assets/86d93071-3e03-4dcf-81ec-a2bf01a799fd" />
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -846,7 +896,6 @@ Adilabad
 Bhadrachalam
 Khammam
 
-## OUTPUT
 
 
 cat forctype.sh 
@@ -861,6 +910,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="180" height="91" alt="image" src="https://github.com/user-attachments/assets/dfa96d14-5ca4-47c9-8a7d-99bf079c469a" />
+
 
 cat forctype1.sh 
 ```bash
@@ -874,6 +925,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="153" height="115" alt="image" src="https://github.com/user-attachments/assets/8625de79-0b73-44f2-91c3-090712d26b83" />
 
 cat fornested1.sh 
 ```bash
@@ -892,6 +944,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="168" height="114" alt="image" src="https://github.com/user-attachments/assets/849c7e17-fdf4-4d70-ad03-97bfb81e4327" />
 
  
 cat forbreak.sh 
@@ -908,12 +961,13 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
+
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+ <img width="483" height="84" alt="image" src="https://github.com/user-attachments/assets/8df965f7-b303-46b7-a402-c13b9d858a6c" />
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -934,7 +988,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ <img width="503" height="117" alt="image" src="https://github.com/user-attachments/assets/c43810ab-55d2-4c34-b808-821bc207babd" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -948,6 +1003,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="326" height="58" alt="image" src="https://github.com/user-attachments/assets/8a35c95b-739d-4800-b897-bb0669e01fb1" />
 
 
  cat exread1.sh
@@ -960,11 +1016,13 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+<img width="468" height="60" alt="image" src="https://github.com/user-attachments/assets/05d84972-21ac-4a64-b157-8b7f81698a3a" />
 
 
 
 $ ./exread1.sh 
- 
+ <img width="269" height="64" alt="image" src="https://github.com/user-attachments/assets/25cd5250-4b64-4388-872b-50efa88cff00" />
+
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -982,9 +1040,11 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+<img width="162" height="39" alt="image" src="https://github.com/user-attachments/assets/7ca37104-b042-45b2-adf9-18658277cb8d" />
 
  
  ./funcex.sh 1 2
+<img width="294" height="59" alt="image" src="https://github.com/user-attachments/assets/4863a0c4-58bb-49bb-a533-1540f6000e58" />
 
  
 cat argshift.sh
@@ -999,7 +1059,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="182" height="69" alt="image" src="https://github.com/user-attachments/assets/e73894da-6a15-4f76-9246-e3d0053a59ee" />
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1016,7 +1077,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="182" height="69" alt="image" src="https://github.com/user-attachments/assets/c8b2a3f1-fab0-4db4-a0f3-a0b9ee66f004" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1029,7 +1091,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ <img width="240" height="246" alt="image" src="https://github.com/user-attachments/assets/1239373b-a0ac-4ef7-9376-af1b0230380b" />
+
  
 cat > nc.awk
 ```bash
@@ -1060,7 +1123,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+<img width="280" height="302" alt="image" src="https://github.com/user-attachments/assets/1923cab8-e5e1-464e-a902-415454d94aaf" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1087,6 +1151,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="212" height="99" alt="image" src="https://github.com/user-attachments/assets/df3f135d-630e-430e-82e1-28f0ec6f5ded" />
 
 
 # RESULT:
